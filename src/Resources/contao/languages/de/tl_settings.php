@@ -14,11 +14,11 @@
 /**
  * Name
  */
-$GLOBALS['TL_LANG']['tl_settings']['insert_verein_legend']              = 'Insert-Tag verein';
+$GLOBALS['TL_LANG']['tl_settings']['figcaption_legend']              = 'Bildunterschriften';
 
 /**
  * fields
  */
-$GLOBALS['TL_LANG']['tl_settings']['insert_verein_replaces'] = array('Ersetzungen', 'Ersetzungen für Vereinsnamen definieren');
-$GLOBALS['TL_LANG']['tl_settings']['insert_verein_search'] = array('Suchen nach', 'Leerzeichen am Anfang oder Ende bitte als + angeben');
-$GLOBALS['TL_LANG']['tl_settings']['insert_verein_replace'] = array('Ersetzen durch', 'Leerzeichen am Anfang oder Ende bitte als + angeben');
+$GLOBALS['TL_LANG']['tl_settings']['figcaption_startTag'] = array('Start-Trennzeichen', 'Start-Trennzeichen in der Bildunterschrift. Hier beginnt die Quellenangabe.');
+$GLOBALS['TL_LANG']['tl_settings']['figcaption_endTag'] = array('Ende-Trennzeichen', 'Ende-Trennzeichen in der Bildunterschrift. Hier endet die Quellenangabe.');
+$GLOBALS['TL_LANG']['tl_settings']['figcaption_replace'] = array('Ersetzen durch', 'Die Variable %s enthält den Text, der zwischen den Trennzeichen steht.');
