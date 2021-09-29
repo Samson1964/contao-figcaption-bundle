@@ -25,6 +25,7 @@ $GLOBALS['TL_HOOKS']['modifyFrontendPage'][] = array('Schachbulle\ContaoFigcapti
  * -------------------------------------------------------------------------
  */
 
+$GLOBALS['TL_CONFIG']['figcaption_active'] = '1';
 $GLOBALS['TL_CONFIG']['figcaption_startTag'] = '[';
 $GLOBALS['TL_CONFIG']['figcaption_endTag'] = ']';
 $GLOBALS['TL_CONFIG']['figcaption_replace'] = '<div class="rechte">%s</div>';

@@ -19,6 +19,7 @@ $GLOBALS['TL_LANG']['tl_settings']['figcaption_legend']              = 'Bildunte
 /**
  * fields
  */
+$GLOBALS['TL_LANG']['tl_settings']['figcaption_active'] = array('Ersetzung aktivieren', 'Ersetzung der Bildunterschriften (figcaption) aktivieren');
 $GLOBALS['TL_LANG']['tl_settings']['figcaption_startTag'] = array('Start-Trennzeichen', 'Start-Trennzeichen in der Bildunterschrift. Hier beginnt die Quellenangabe.');
 $GLOBALS['TL_LANG']['tl_settings']['figcaption_endTag'] = array('Ende-Trennzeichen', 'Ende-Trennzeichen in der Bildunterschrift. Hier endet die Quellenangabe.');
 $GLOBALS['TL_LANG']['tl_settings']['figcaption_replace'] = array('Ersetzen durch', 'Die Variable %s enthält den Text, der zwischen den Trennzeichen steht.');

@@ -44,10 +44,16 @@ class Figcaption extends \Frontend
 
 	public function Parser($buffer, $templateName)
 	{
-		$pattern = '/<figcaption ?(.*)>(.+)<\/figcaption>/Usi';
-		$neu = preg_replace_callback($pattern, array($this,'text2html_callback'), $buffer);
-		
-		return $neu;
+		if($GLOBALS['TL_CONFIG']['figcaption_active'])
+		{
+			$pattern = '/<figcaption ?(.*)>(.+)<\/figcaption>/Usi';
+			$neu = preg_replace_callback($pattern, array($this,'text2html_callback'), $buffer);
+			return $neu;
+		}
+		else
+		{
+			return $buffer;
+		}
 	}
 
 	static function text2html_callback($treffer)

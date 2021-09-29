@@ -14,11 +14,20 @@
 /**
  * palettes
  */
-$GLOBALS['TL_DCA']['tl_settings']['palettes']['default'] .= ';{figcaption_legend:hide},figcaption_startTag,figcaption_endTag,figcaption_replace';
+$GLOBALS['TL_DCA']['tl_settings']['palettes']['__selector__'][] = 'figcaption_active';
+$GLOBALS['TL_DCA']['tl_settings']['palettes']['default'] .= ';{figcaption_legend:hide},figcaption_active';
+$GLOBALS['TL_DCA']['tl_settings']['subpalettes']['figcaption_active'] = 'figcaption_startTag,figcaption_endTag,figcaption_replace';
 
 /**
  * fields
  */
+
+$GLOBALS['TL_DCA']['tl_settings']['fields']['figcaption_active'] = array
+(
+	'label'         => &$GLOBALS['TL_LANG']['tl_settings']['figcaption_active'],
+	'inputType'     => 'checkbox',
+	'eval'          => array('tl_class' => 'w50','isBoolean' => true, 'submitOnChange'=>true)
+);
 
 $GLOBALS['TL_DCA']['tl_settings']['fields']['figcaption_startTag'] = array
 (
@@ -26,7 +35,7 @@ $GLOBALS['TL_DCA']['tl_settings']['fields']['figcaption_startTag'] = array
 	'inputType'                           => 'text',
 	'eval'                                => array
 	(
-		'tl_class'                        => 'w50',
+		'tl_class'                        => 'w50 clr',
 	),
 );
 
