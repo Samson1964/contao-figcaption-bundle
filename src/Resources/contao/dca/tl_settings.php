@@ -1,32 +1,37 @@
-<?php if (!defined('TL_ROOT')) die('You cannot access this file directly!');
+<?php
 
 /**
  * Contao Open Source CMS
  *
- * Copyright (C) 2005-2013 Leo Feyer
+ * Copyright (C) 2005-2024 Leo Feyer
  *
- * @package   fen
+ * @package   figcaption
  * @author    Frank Hoppe
  * @license   GNU/LGPL
- * @copyright Frank Hoppe 2013
+ * @copyright Frank Hoppe 2021-2024
  */
 
 /**
- * palettes
+ * Paletten
  */
 $GLOBALS['TL_DCA']['tl_settings']['palettes']['__selector__'][] = 'figcaption_active';
 $GLOBALS['TL_DCA']['tl_settings']['palettes']['default'] .= ';{figcaption_legend:hide},figcaption_active';
 $GLOBALS['TL_DCA']['tl_settings']['subpalettes']['figcaption_active'] = 'figcaption_startTag,figcaption_endTag,figcaption_replace';
 
 /**
- * fields
+ * Felder
  */
 
 $GLOBALS['TL_DCA']['tl_settings']['fields']['figcaption_active'] = array
 (
-	'label'         => &$GLOBALS['TL_LANG']['tl_settings']['figcaption_active'],
-	'inputType'     => 'checkbox',
-	'eval'          => array('tl_class' => 'w50','isBoolean' => true, 'submitOnChange'=>true)
+	'label'                               => &$GLOBALS['TL_LANG']['tl_settings']['figcaption_active'],
+	'inputType'                           => 'checkbox',
+	'eval'                                => array
+	(
+		'tl_class'                        => 'w50',
+		'isBoolean'                       => true,
+		'submitOnChange'                  => true
+	)
 );
 
 $GLOBALS['TL_DCA']['tl_settings']['fields']['figcaption_startTag'] = array

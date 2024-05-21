@@ -1,5 +1,10 @@
 # Bildunterschriften ersetzen Changelog
 
+## Version 2.0.1 (2024-05-21)
+
+* Fix: tl_settings Codestruktur
+* Add: Anleitung der Einbindung in README
+
 ## Version 2.0.0 (2024-05-21)
 
 * Add: PHP8-Unterstützung
