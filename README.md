@@ -6,7 +6,7 @@ Mit dieser Erweiterung können Sie einen von Platzhaltern umklammerten Text in B
 
 Die Einstellungen für die Ersetzung in Bildunterschriften (figcaption-Tag) nehmen Sie unter System -> Einstellungen vor:
  
-![](docs/bildunterschriften.png)
+![](docs/bildunterschriften.jpg)
 
 Die Beispielkonfiguration in der Grafik würde die Bildunterschrift 
 

@@ -1,5 +1,9 @@
 # Bildunterschriften ersetzen Changelog
 
+## Version 2.0.2 (2024-05-21)
+
+* Fix: README Bildverlinkung
+
 ## Version 2.0.1 (2024-05-21)
 
 * Fix: tl_settings Codestruktur
