@@ -1,7 +1,14 @@
 {
     "name": "schachbulle/contao-figcaption-bundle",
     "type": "contao-bundle",
-    "description": "Bildunterschriften ersetzen in Contao 4",
+    "description": "Ersetzt in Bildunterschriften einen von Platzhaltern umklammerten Text, damit sich zum Beispiel der Fotograf gesondert auszeichnen lässt.",
+    "keywords": [
+        "contao",
+        "bildunterschrift",
+        "figcaption",
+        "fotograf"
+    ],
+    "homepage": "https://github.com/Samson1964/contao-figcaption-bundle",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {

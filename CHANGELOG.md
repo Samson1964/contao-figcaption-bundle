@@ -1,5 +1,9 @@
 # Bildunterschriften ersetzen Changelog
 
+## Version 2.0.3 (2026-07-30)
+
+* Change: Beschreibung, Keywords und Homepage in der composer.json ergänzt, damit Packagist das Paket verständlich darstellt und über die Suche auffindbar macht
+
 ## Version 2.0.2 (2024-05-21)
 
 * Fix: README Bildverlinkung
