@@ -1,0 +1,12 @@
+# Quelle fuer die Metadaten im Contao Manager (contao/package-metadata).
+# Aenderungen hier werden von Claude in den Fork uebertragen.
+# Der englische Block wird beim Abgleich ergaenzt, falls er fehlt.
+
+de:
+    title: Bildunterschriften ersetzen
+    description: >
+        Ersetzt in Bildunterschriften einen von Platzhaltern umklammerten Text, damit sich zum Beispiel der Fotograf gesondert auszeichnen lässt.
+    keywords:
+        - Bildunterschrift
+        - figcaption
+        - Fotograf
