@@ -1,0 +1,8 @@
+services:
+    _defaults:
+        autoconfigure: true
+
+    # Das Attribut AsHook an der Klasse registriert den Dienst als Contao-Hook
+    # "modifyFrontendPage". Dafür ist autoconfigure zwingend eingeschaltet.
+    schachbulle.figcaption.listener:
+        class: Schachbulle\ContaoFigcaptionBundle\EventListener\FigcaptionListener
